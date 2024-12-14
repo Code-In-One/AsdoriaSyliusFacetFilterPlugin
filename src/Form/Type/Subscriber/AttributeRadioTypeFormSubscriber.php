@@ -7,6 +7,7 @@ namespace Asdoria\SyliusFacetFilterPlugin\Form\Type\Subscriber;
 use Asdoria\SyliusFacetFilterPlugin\Model\FacetTypeProductAttributeInterface;
 use Sylius\Component\Attribute\Model\AttributeValueInterface;
 use Sylius\Component\Product\Model\ProductAttribute;
+use Sylius\Component\Product\Model\ProductAttributeValue;
 use Sylius\Component\Resource\Model\ResourceInterface;
 use Symfony\Component\Form\ChoiceList\Loader\CallbackChoiceLoader;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
