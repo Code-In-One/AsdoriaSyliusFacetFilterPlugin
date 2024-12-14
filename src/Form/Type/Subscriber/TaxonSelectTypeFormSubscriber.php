@@ -2,12 +2,11 @@
 
 declare(strict_types=1);
 
-
 namespace Asdoria\SyliusFacetFilterPlugin\Form\Type\Subscriber;
 
-use App\Entity\Taxonomy\Taxon;
 use Asdoria\SyliusFacetFilterPlugin\Form\Type\ProductTaxonFilterType;
 use Asdoria\SyliusFacetFilterPlugin\Model\FacetTypeTaxonInterface;
+use Sylius\Component\Core\Model\Taxon;
 use Symfony\Component\Form\FormInterface;
 
 /**

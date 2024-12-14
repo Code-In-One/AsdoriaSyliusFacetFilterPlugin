@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Asdoria\SyliusFacetFilterPlugin\Form\Type;
 
-use App\Entity\Product\ProductAttribute;
 use Asdoria\SyliusFacetFilterPlugin\Form\EventSubscriber\TypeFacetTypeSubscriber;
 use Asdoria\SyliusFacetFilterPlugin\Traits\FilterFormTypeRegistryTrait;
 use Sylius\Bundle\ProductBundle\Form\Type\ProductAttributeChoiceType;
 use Sylius\Bundle\ResourceBundle\Form\Type\AbstractResourceType;
+use Sylius\Component\Product\Model\ProductAttribute;
 use Symfony\Component\Form\FormBuilderInterface;
 
 /**

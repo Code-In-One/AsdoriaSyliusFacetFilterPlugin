@@ -4,13 +4,8 @@ declare(strict_types=1);
 
 namespace Asdoria\SyliusFacetFilterPlugin\Doctrine\ORM;
 
-use App\Entity\Product\Product;
-use Asdoria\SyliusFacetFilterPlugin\Form\Type\Grid\FacetFilteringType;
 use Asdoria\SyliusFacetFilterPlugin\Model\Aware\FacetFilterCodeAwareInterface;
-use Doctrine\ORM\EntityRepository;
-use Doctrine\Persistence\ManagerRegistry;
-use Doctrine\Persistence\ObjectManager;
-use Asdoria\SyliusFacetFilterPlugin\Doctrine\ORM\DataSource;
+use Sylius\Component\Core\Model\Product;
 use Sylius\Component\Grid\Data\DataSourceInterface;
 use Sylius\Component\Grid\Data\DriverInterface;
 use Sylius\Component\Grid\Parameters;

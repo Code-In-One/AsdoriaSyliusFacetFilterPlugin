@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Asdoria\SyliusFacetFilterPlugin\Form\Type;
 
-use App\Entity\Taxonomy\Taxon;
 use Asdoria\SyliusFacetFilterPlugin\Form\EventSubscriber\TypeFacetTypeSubscriber;
 use Asdoria\SyliusFacetFilterPlugin\Traits\FilterFormTypeRegistryTrait;
 use Sylius\Bundle\ResourceBundle\Form\Type\AbstractResourceType;
 use Sylius\Bundle\TaxonomyBundle\Form\Type\TaxonAutocompleteChoiceType;
+use Sylius\Component\Core\Model\Taxon;
 use Symfony\Component\Form\FormBuilderInterface;
 
 /**
